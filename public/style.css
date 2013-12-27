@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background: #eee;
+}
+
+#wrap {
+  width: 800px;
+  margin: auto;
+  padding: 3em;
+  background: white;
+  box-shadow: 0 0 10px gray;
+}
+
+header {
+  width: 320px;
+  margin: auto;
+}
+
+section {
+  page-break-inside: avoid;
+  margin-top: 2em;
+}
+
+h1, h2, h3 {
+  font-family: 'EB Garamond', serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: gray;
+  margin-bottom: 2em;
+  margin-top: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+h4, p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h4 {
+  font-style: italic;
+}
+
+ol {
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  list-style: square;
+  margin: 1.5em 2em;
+}
+
+li {
+  margin-top: 0.2em;
+}
+
+@media all and (max-width: 860px) and (min-width: 321px) {
+  body {
+    background: white;
+  }
+
+  #wrap {
+    width: 90%;
+    margin-left: -1em;
+    padding: inherit 0;
+    box-shadow: none;
+  }
+}
+
+@media all and (max-width: 320px) {
+  #wrap {
+    width: 100%;
+    padding: 1.5em;
+  }
+
+  h2 { margin-bottom: 1.3em; }
+  p { font-size: 1em; }
+}
