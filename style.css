@@ -8,7 +8,7 @@ body {
 #wrap {
   width: 650px;
   margin: auto;
-  padding: 75px;
+  padding: 60px 75px;
   padding-bottom: 50px;
   background: white;
 }
@@ -79,7 +79,7 @@ li {
 @media all and (max-width: 800px) and (min-width: 321px) {
   #wrap {
     width: 80%;
-    padding: 75px 10% 50px 10%;
+    padding: 50px 10%;
   }
 }
 
@@ -102,7 +102,7 @@ li {
 
 @media print {
   body {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   #wrap {
@@ -114,6 +114,10 @@ li {
   }
 
   .print-spacer-2 {
-    height: 10px;
+    padding-top: 5em;
+  }
+
+  .print-spacer-3 {
+    padding-top: 5em;
   }
 }
