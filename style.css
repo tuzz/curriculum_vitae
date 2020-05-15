@@ -6,7 +6,7 @@ body {
 }
 
 #wrap {
-  width: 650px;
+  width: 680px;
   margin: auto;
   padding: 60px 75px;
   padding-bottom: 50px;
@@ -61,7 +61,7 @@ h4 {
 
 .divider {
   border-top: 1px solid #ddd;
-  margin: 2em 0;
+  margin: 2.5em 0;
 }
 
 ul {
